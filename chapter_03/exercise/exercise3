@@ -1,0 +1,13 @@
+(a) "d" versus " %d"
+These two format string are different; The former will match any integers with or without preceding whitespace;
+the latter requires at least one before the integer input.
+
+(b) "%d-%d-%d versus "%d -%d -%d"
+These two format string are also different; The second format
+string requires white space for the second and third integers.
+
+(c) "%f" versus "%f "
+These two are also different. They both match floating-point numbers, but the latter requires whitespace after the numeric input.
+
+(d) "%f,%f" versus "%f, %f"
+The latter requires whitespace after the comma, while the former does not necessarily require so.

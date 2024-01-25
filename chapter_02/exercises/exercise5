@@ -1,0 +1,9 @@
+Identifiers in C contain letters, numbers, and underscores.
+
+They must always begin with a letter or underscore.
+
+
+(a) 100_bottles is not a legal identifier
+(b) _100_bottles is allowed
+(c) one_hundred_bottles is also allowed
+(d) bottles_by_the_hundred_ is also allowed.

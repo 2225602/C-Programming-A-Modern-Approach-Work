@@ -1,0 +1,16 @@
+If i and j are positive integers, does (-i) / j
+always have the same value as - (i / j)? Justify
+your answer.
+
+-> Not necessarily. We know that the division
+rules with one of the operands being negative
+differs from C89 and C99.  In C89, (-i) / j
+may have a different value from - (i / j) since
+the first expression's value may be rounded up
+or down depending on the implementation while
+the second one is guaranteed to be rounded down
+before applying the negative operator.
+
+In C99, (-i) / j and - (i / j) are guaranteed to
+have both the same values since both expressions
+will be guaranteed to be truncated towards zero.

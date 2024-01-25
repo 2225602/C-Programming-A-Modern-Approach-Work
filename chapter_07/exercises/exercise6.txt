@@ -1,0 +1,25 @@
+
+
+Q. For each of the following items of data,
+specify which one of the types char, short,
+int, or long is the smallest one guaranteed to
+be large enough to store the item.
+
+(a) Days in a month (b) Days in a year (c)
+Minutes in a day (d) Seconds in a day
+
+A. These answers are all assuming that the types
+are signed:
+
+(a) There can be up to 31 days in a month,
+so char should be the appropriate type.
+
+(b) There's 365 days in a year so a short type
+should be suitable.
+
+(c) There's 1440 minutes in a day; short type
+is also suitable.
+
+(d) There's 86400 seconds in a day, so an int
+type should be used (unless if on a 16-bit
+machine, in which case long must be used.)

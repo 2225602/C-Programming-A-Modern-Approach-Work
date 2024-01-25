@@ -1,0 +1,14 @@
+
+
+Q. For each of the following character escapes, give the equivalent octal escape. (Assume that the character set is ASCII.) 
+
+(a) \b
+(b) \n
+(c) \r
+(d) \t
+
+A. 
+(a) \010
+(b) \012
+(c) \015
+(d) \011

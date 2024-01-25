@@ -1,0 +1,9 @@
+
+(a) for
+(b) If
+(c) main
+(d) printf
+(e) while
+
+(b) and (d) are not keywords in C. The rest are in fact keywords
+used in C compilers.

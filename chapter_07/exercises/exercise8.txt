@@ -1,0 +1,14 @@
+
+
+Q. Repeat Exercise 7, but give the equivalent hexadecimal escape. 
+
+(a) \b
+(b) \n
+(c) \r
+(d) \t
+
+A. 
+(a) \x8
+(b) \xa
+(c) \xd
+(d) \x9

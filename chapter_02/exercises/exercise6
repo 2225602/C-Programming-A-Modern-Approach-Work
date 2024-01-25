@@ -1,0 +1,3 @@
+Adding more than one adjacent underscores in identifiers like current__balance is not a good idea
+because some text editors or IDEs would show them without a bit of space or gap which makes it harder
+to tell how many underscores are shown.
